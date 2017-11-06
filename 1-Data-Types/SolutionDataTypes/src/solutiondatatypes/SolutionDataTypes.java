@@ -29,7 +29,7 @@ public class SolutionDataTypes {
         d2 = scan.nextDouble();
 
         scan.nextLine();
-        s2 = scan.nextLine();
+        s2 = scan.nextLine();// read the rest of the line of input (newline character after the double token).
 
         /* Print the sum of both integer variables on a new line. */
         System.out.println(i + i2);
