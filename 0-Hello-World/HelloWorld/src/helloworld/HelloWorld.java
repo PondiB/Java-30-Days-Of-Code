@@ -1,6 +1,6 @@
 
 package helloworld;
-
+// Learning the basics of Java
 import java.util.Scanner;
 
 public class HelloWorld {
