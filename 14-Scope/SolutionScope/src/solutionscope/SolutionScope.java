@@ -22,8 +22,7 @@ class Difference {
      maximumDifference = max - min;   
     }
  } // End of Difference class
-
-        
+           
         
 public class SolutionScope {
 
