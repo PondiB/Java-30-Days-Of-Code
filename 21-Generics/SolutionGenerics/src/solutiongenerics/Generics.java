@@ -11,10 +11,12 @@ class Printer <T> {
     *    @param A generic array
     **/
     
-    // Write your code here    
-    
-    
-    
+       // Write your code here
+     static <E>void printArray(E[] generic){
+        for (E element: generic){
+            System.out.println(element);
+        }
+    }
     
 }
 public class Generics {
