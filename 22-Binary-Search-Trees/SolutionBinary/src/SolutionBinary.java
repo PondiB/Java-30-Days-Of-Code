@@ -10,8 +10,15 @@ class Node{
 class SolutionBinary {
 	public static int getHeight(Node root){
       //Write your code here
-    } 
-}
+        if(root == null) {
+           return -1;
+       }
+       
+       int left = 1 + getHeight(root.left);
+       int right = 1 + getHeight(root.right);
+        
+       return Math.max(left, right);
+    }
 
     public static Node insert(Node root,int data){
         if(root==null){
