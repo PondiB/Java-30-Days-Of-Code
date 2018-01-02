@@ -1,7 +1,6 @@
 
 package solutionlinkedlists;
 
-import java.io.*;
 import java.util.*;
 class Node{
 	int data;
@@ -16,6 +15,15 @@ class Node{
 public class SolutionLinkedLists {
     public static Node removeDuplicates(Node head) {
       //Write your code here
+        Node current = head ;
+        while ( head != null && current.next != null  ) 
+            if ( current.next.data == current.data )
+                // duplicate: remove and stay on this node
+                current.next = current.next.next;   
+            else 
+                // not duplciate: move to next node
+                current = current.next;     
+        return head;
     }
 
 	 public static  Node insert(Node head,int data)
