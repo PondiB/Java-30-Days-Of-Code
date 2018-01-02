@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package solutionlinkedlists;
 
-/**
- *
- * @author Pondi Brian
- */
+import java.io.*;
+import java.util.*;
+class Node{
+	int data;
+	Node next;
+	Node(int d){
+        data=d;
+        next=null;
+    }
+	
+}
+
 public class SolutionLinkedLists {
 
     /**
