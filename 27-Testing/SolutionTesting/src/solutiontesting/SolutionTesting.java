@@ -1,6 +1,10 @@
 package solutiontesting;
 
+<<<<<<< HEAD
  class SolutionTesting {
+=======
+class SolutionTesting {
+>>>>>>> 1ae91bb28758b5aaa2ed1d3b9873e848a91f012e
     public static void main(String srgs[]) {
         System.out.println(5);
         System.out.println("4 3");
