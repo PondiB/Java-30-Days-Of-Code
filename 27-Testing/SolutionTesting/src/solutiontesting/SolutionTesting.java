@@ -1,7 +1,7 @@
 package solutiontesting;
 
 class SolutionTesting {
-    public static void main(String srgs[]) {
+    public static void main(String args[]) {
         System.out.println(5);
         System.out.println("4 3");
         System.out.println("0 -3 4 2");
